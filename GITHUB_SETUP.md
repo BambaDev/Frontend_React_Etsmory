@@ -1,54 +1,46 @@
-# 🚀 CRÉATION DE VOTRE DÉPÔT GITHUB PERSONNEL
+# 🚀 INSTRUCTIONS POUR CRÉER LE DÉPÔT GITHUB
 
-## ⚠️ IMPORTANT
-Votre configuration Git est :
-- **Nom**: BambaDev
-- **Email**: bambabensekou@gmail.com
+## Étape 1 : Créer le dépôt sur GitHub
 
-Vous devez créer le dépôt sous **votre propre compte GitHub** (BambaDev), pas sous un autre compte.
-
-## Étape 1 : Créer VOTRE dépôt sur GitHub
-
-1. Connectez-vous à GitHub avec votre compte **BambaDev**
-2. Allez sur https://github.com/new
-3. Remplissez :
+1. Allez sur https://github.com/new
+2. Remplissez les informations :
    - **Repository name** : `Frontend_React_Etsmory`
    - **Description** : `Frontend e-commerce EtSmory - React 19, TypeScript, Vite, Tailwind CSS`
-   - **Visibility** : Public
+   - **Visibility** : Public (ou Private si vous préférez)
    - **❌ NE PAS COCHER** : "Initialize this repository with a README"
 
-4. Cliquez sur "Create repository"
+3. Cliquez sur "Create repository"
 
-## Étape 2 : Connecter et pousser
+## Étape 2 : Connecter et pousser le code
 
-Après création, copiez l'URL et exécutez :
+Après avoir créé le dépôt, copiez l'URL fournie par GitHub et exécutez :
 
 ```bash
-# L'URL sera quelque chose comme :
-git remote add origin https://github.com/BambaDev/Frontend_React_Etsmory.git
+# Ajouter le remote (remplacez VOTRE_USERNAME par votre nom d'utilisateur GitHub)
+git remote add origin https://github.com/VOTRE_USERNAME/Frontend_React_Etsmory.git
 
 # Pousser le code
 git push -u origin main
 ```
 
-## ✅ Ce qui sera poussé
+## ✅ Résultat attendu
 
-- **Application e-commerce complète** EtSmory
-- **31 fichiers** avec 15,371 lignes de code
-- **Configuration moderne** : React 19, TypeScript, Vite, ESLint
-- **Sécurité à jour** : Audit passé, vulnérabilités corrigées
-- **Documentation complète** : README.md détaillé
-- **Build optimisé** prêt pour le déploiement
+Votre dépôt `Frontend_React_Etsmory` contiendra :
+- Application e-commerce complète EtSmory
+- Code React 19 + TypeScript + Vite
+- Configuration ESLint et sécurité à jour
+- Documentation complète (README.md)
+- Build optimisé prêt pour le déploiement
 
-## 🔧 Commandes GitHub CLI (Alternative)
+## 🔧 Commandes alternatives
 
-Si vous avez GitHub CLI installé :
-
+Si vous préférez utiliser SSH :
 ```bash
-gh repo create Frontend_React_Etsmory --public --source=. --remote=origin --push
+git remote add origin git@github.com:VOTRE_USERNAME/Frontend_React_Etsmory.git
+git push -u origin main
 ```
 
 ---
 
-**Votre dépôt local est prêt avec 2 commits !** 🎉</content>
+**Votre dépôt local est prêt avec le commit initial : d16ed8d** 🎉</content>
 <parameter name="filePath">c:\laragon\www\react-hero-slider-component\GITHUB_SETUP.md
